@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a.active {
+    color: rgb(0, 134, 126);
+}
+a.active hr{
+    background-color: rgb(0, 134, 126);
+}
