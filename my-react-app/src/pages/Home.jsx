@@ -1,9 +1,10 @@
 import React from 'react'
+import Prime from '../components/Prime'
 
 const Home = () => {
   return (
     <div>
-      <p>Home Page</p>
+      <Prime/>
     </div>
   )
 }

@@ -15,19 +15,19 @@ const Navbar = () => {
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700 py-4'>
 
             <NavLink to='/' className='flex flex-col items-center gap-1'>
-                <p>Home</p>      
+                <p className='text-lg'>Home</p>      
                 <hr className='w-2/4 border-none h-[1.5px] bg-gray-700'/>
             </NavLink>
             <NavLink to='/collection' className='flex flex-col items-center gap-1'>
-                <p>Collection</p>      
+                <p className='text-lg'>Collection</p>      
                 <hr className='w-2/4 border-none h-[1.5px] bg-gray-700'/>
             </NavLink>
             <NavLink to='/about' className='flex flex-col items-center gap-1'>
-                <p>About</p>      
+                <p className='text-lg'>About</p>      
                 <hr className='w-2/4 border-none h-[1.5px] bg-gray-700'/>
             </NavLink>
             <NavLink to='/contact' className='flex flex-col items-center gap-1'>
-                <p>Contact</p>      
+                <p className='text-lg'>Contact</p>      
                 <hr className='w-2/4 border-none h-[1.5px] bg-gray-700'/>
             </NavLink>
 
@@ -75,6 +75,8 @@ const Navbar = () => {
 
     </div>
     <hr className='h-[0.1px] border-0 bg-gray-300'/>
+    <br />
+    <Outlet/>
     </>
   )
 }
